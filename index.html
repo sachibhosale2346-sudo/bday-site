@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="home">
+
+<nav>
+    <div class="logo">For You</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="letter.html">Letter</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+    <h1>Happy 20th Ketss</h1>
+    <p class="subtitle">A small digital space made for you.</p>
+
+    <div class="card">
+        <p>
+            Another year down, 20 years of livng, 20 years of aura farming, 
+            20 years of quietly building yourself and 20 years of being an absolute icon of a diva that you are.
+        </p>
+        <p>
+            I hope this year gives you clarity, growth, the kind of happiness
+            that feels steady — not temporary ,and makes you rich in all the ways possible.
+<br>
+Putting my skills to use while building this.
+        </p>
+        <p>
+            This space is simple. Intentional. Like the way I see you.
+        </p>
+    </div>
+
+</section>
+
+<script>
+document.querySelectorAll("a").forEach(link => {
+    if (link.hostname === window.location.hostname) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+                window.location = this.href;
+            }, 500);
+        });
+    }
+});
+</script>
+<div class="floating-video">
+    <video autoplay muted loop playsinline>
+        <source src="montage.mp4" type="video/mp4">
+    </video>
+</div>
+</body>
+</html>

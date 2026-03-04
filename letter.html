@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Letter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="letter-page">
+
+<nav>
+    <div class="logo">For You</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="letter.html">Letter</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+    <h1>A Letter For You</h1>
+
+    <div class="card letter">
+        <p>
+
+Hi Kets,<br>
+Finally 20 now, such a serious age.<br>
+Responsibilities awaiting.I dont want this to be overly dramatic.<br>
+<br>
+
+So , I don't really know what to say nor I have enough words to express what I feel right now but, one thing I'll say is I'm so damn proud, never been more proud ever. I can say it's been a while since we became friends and you've been a constant figure in my life for which I'm very grateful and I hardly question your lack of consistency now that I know you so well,I know you aren't leaving me anytime soon (don't worry I'm not too). You know I feel somehow in these years I've seen you grow up like my own kid at this point, the evident difference between how you were when we first met and the person you have become now is so huge and it's all for the positive side I would say. You stand up for yourself, carry yourself with the quiet effortless confidence, handle everything so efficiently, know your boundaries, aren't afraid to state your points, so proper so neat so pretty so cool ,I respect it the most, I respect you. So responsible and understanding, literally the ideal child every and any asian parent would ask for. I envy you so damn much ,about how you carry yourself, how you never hesitate to take the lead , which infact is actually so hot of you but, despite all this adulting you're still a kid at heart and I wish that kid gets to live on forever. And I think you might not acknowledge this but you actually hold an insane amount of aura not gonna lie , you just need to act on it and that's it , biggest W that you would take.<br>
+<br>
+
+I know between you and me there are differences, we are two people on very different wavelengths but despite all the differences you feel like home to me. And I hope that someday it might be the same for you. I would try my best to become someone you can lean on, try to match your freak (under limits ;)) And through all of this , it's still my biggest flex that I managed to pull a 10/10 personality like you to be my closest and bestest friend.I hope this year challenges you in the right ways.I hope it rewards your effort.And I hope you never start underestimating yourself.Best wishes and hope you live the life you deserve.<br>
+
+I love you kets. Genuinely and truly.
+     
+
+        <p class="signature">
+            —yours only
+        </p>
+    </div>
+</section>
+<script>
+document.querySelectorAll("a").forEach(link => {
+    if (link.hostname === window.location.hostname) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.body.classList.add("fade-out");
+            setTimeout(() => {
+                window.location = this.href;
+            }, 500);
+        });
+    }
+});
+</script>
+<div class="floating-video">
+    <video autoplay muted loop playsinline>
+        <source src="montage.mp4" type="video/mp4">
+    </video>
+</div>
+</body>
+</html>
