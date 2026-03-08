@@ -241,7 +241,7 @@ body.letter-page {
 }
 
 .letter-image img {
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -255,5 +255,6 @@ body.letter-page {
     border-radius: 12px;
     margin-top: 5px;
 }
+
 
 
