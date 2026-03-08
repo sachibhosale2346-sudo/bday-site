@@ -233,4 +233,20 @@ body.letter-page {
 }
 .container {
     padding-bottom: 500px;
+
+}
+.letter-image {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.letter-image img {
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.letter-image img:hover {
+    transform: scale(1.05);
 }
