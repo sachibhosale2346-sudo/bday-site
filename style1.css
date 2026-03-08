@@ -232,7 +232,7 @@ body.letter-page {
     display: block;
 }
 .container {
-    padding-bottom: 500px;
+    padding-bottom: 120px;
 
 }
 .letter-image {
@@ -255,4 +255,5 @@ body.letter-page {
     border-radius: 12px;
     margin-top: 5px;
 }
+
 
