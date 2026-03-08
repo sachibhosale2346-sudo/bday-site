@@ -236,7 +236,7 @@ body.letter-page {
 
 }
 .letter-image {
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -250,3 +250,4 @@ body.letter-page {
 .letter-image img:hover {
     transform: scale(1.05);
 }
+
