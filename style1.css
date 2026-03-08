@@ -250,4 +250,9 @@ body.letter-page {
 .letter-image img:hover {
     transform: scale(1.05);
 }
+.letter-image img {
+    width: 260px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
 
